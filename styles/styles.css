@@ -9,6 +9,16 @@
   font-family: Harabara;
 }
 
+nav a, .foo a {
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+}
+
+nav a:hover, .foo a:hover {
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+}
+
 .center {
   height: 200px;
   position: relative;
@@ -111,16 +121,22 @@
   position: absolute;
   width: 100%;
   height: 720px;
-  top: 720px;
+  top: 780px;
   background: white;
-  z-index: 2;
+  z-index: -1;
 }
-
 
 .content{
   top: 20%;
   left: 30%;
   width: 600px;
+}
+
+.foo{
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 1600px;
 }
 
 /* animations */
