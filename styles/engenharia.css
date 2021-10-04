@@ -1,0 +1,13 @@
+a {
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+}
+
+.icons {
+    width: 100px;
+}
