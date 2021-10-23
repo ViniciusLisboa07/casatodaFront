@@ -19,6 +19,11 @@ nav a:hover, .foo a:hover {
   text-decoration: none;
 }
 
+nav a img {
+  width: 80px;
+  height: 80px;
+}
+
 .center {
   height: 200px;
   position: relative;
@@ -181,5 +186,21 @@ nav a:hover, .foo a:hover {
 @media screen and (max-width: 472px) {
   .icons {
     margin-left: 6%;
+  }
+}
+
+@media screen and (max-width: 339px) {
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  nav a img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .icons {
+    padding-top: 15px;
   }
 }
