@@ -131,6 +131,7 @@ nav a:hover, .foo a:hover {
   padding: 1.5rem;
   margin-right: 0;
   margin-left: 0;
+  max-width: 800px;
   border-width: 1px;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -172,8 +173,13 @@ nav a:hover, .foo a:hover {
   .logo {
     height: auto;
   }
+  .icons {
+    margin-right: 5%;
+  }
+}
 
-  .content {
-    
+@media screen and (max-width: 472px) {
+  .icons {
+    margin-left: 6%;
   }
 }
