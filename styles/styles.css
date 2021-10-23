@@ -128,8 +128,12 @@ nav a:hover, .foo a:hover {
 }
 
 .content{
-  padding: 10px;
-  width: 600px;
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 1px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
 .foo{
@@ -158,5 +162,18 @@ nav a:hover, .foo a:hover {
   to{
       opacity: 1;
       transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    overflow-x: hidden;
+  }
+  .logo {
+    height: auto;
+  }
+
+  .content {
+    
   }
 }
